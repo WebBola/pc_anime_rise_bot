@@ -33,7 +33,9 @@ bot.on('message', (msg) => {
     bot.sendMessage(chatId, "🎮 Bu bot *PowerClick: Anime Rise* o‘yiniga bag‘ishlangan!\n🔥 O‘yinchi sifatida klik qiling, kuch yig‘ing va reytingda yuqoriga chiqing!");
   }
   if (text === '📞 Aloqa') {
-    bot.sendMessage(chatId, "📩 Savol va takliflar uchun: @behruz8005");
+    bot.sendMessage(chatId, "📩 Savol va takliflar uchun:\n\n👉 Telegram: @behruz8005\n👉 Instagram: [dyrroth.n1](https://instagram.com/dyrroth.n1)", {
+      parse_mode: "Markdown"
+    });
   }
   if (text === '🌐 Websayt') {
     const options = {
