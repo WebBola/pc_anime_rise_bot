@@ -46,7 +46,7 @@ bot.on('message', (msg) => {
         one_time_keyboard: false
       }
     };
-    bot.sendMessage(chatId, "📩 Savol va takliflar uchun:\n\n👉 Telegram: @behruz8005\n👉 Instagram: [dyrroth.n1](https://instagram.com/dyrroth.n1)", {
+    bot.sendMessage(chatId, "📩 Savol va takliflar uchun:\n\n👉 Telegram: @behruz_dot\n👉 Instagram: [dyrroth.n1](https://instagram.com/dyrroth.n1)", {
       parse_mode: "Markdown",
       reply_markup: options.reply_markup
     });
